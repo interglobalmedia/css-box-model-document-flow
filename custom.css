@@ -231,3 +231,21 @@ button,
 img {
     width: 100%;
 }
+
+/* For styling the text over the leopard image */
+
+.container {
+    position: relative;
+}
+
+div.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size; 1.13rem;
+}
+
+img#leopard-image {
+    height: auto;
+    opacity: 0.5;
+}
