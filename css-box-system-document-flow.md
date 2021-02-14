@@ -382,6 +382,79 @@ An `element` ***can have*** a `positive` (***towards*** the `top` of the `stack 
 <section class="section">
     <h2 class="sentence">Positioning Text in an image</h2>
     
+`Text` can ***also*** be `positioned` ***over*** an `image` ***using*** the `position` ***property***. For ***example***, we ***can do*** the ***following***:
+
+The **HTML**:
+
+```html
+<div class="container">
+    <img id="leopard-image" src="images/michael-browning-jK092Gm-1KQ-unsplash.jpg" alt="Leopard in the field">
+    <div class="top-left">Top Left</div>
+</div>
+```
+
+The **CSS**:
+
+```css
+* {
+    margin: 0;
+    padding: 0;
+/*    box-sizing: border-box;*/
+}
+
+.container {
+    position: relative;
+}
+
+div.top-left {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    font-size:1.5rem;
+    color: #ae2825;
+}
+
+img#leopard-image {
+    display: block;
+    background-size: cover;
+    background-position: left center;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.5;
+}
+```
+
+***First***, we ***add*** a ***minimal*** `CSS reset` to ***get rid*** of any ***unwanted*** `margins` or `padding` ***around*** the `image`.
+
+***Next***, we ***add*** the ***property declaration*** `position: relative;` to the `parent container` of the `img element`.
+
+***Next***, we ***add*** the ***following*** `div.top-left` ***rule set*** to the `div` that ***contains*** the `text` we ***want*** to ***place*** over the `image`:
+
+```css
+div.top-left {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    font-size:1.5rem;
+    color: #ae2825;
+}
+```
+
+The `div` ***with*** the `.top-left` ***class*** is the `child` of the `div` ***with*** the `.container` ***class***, so we ***apply*** the `value` of `absolute` to its `position` ***property***.
+
+We `use` the `top` and `left property` ***values*** to `determine` ***where*** we ***want*** the `text` to be ***placed*** on `top` of the `image`.
+
+We `use` the `font-size` ***property*** to `determine` ***how big*** we ***want*** our `font` ***to be***.
+
+We ***use*** the `color property` to ***change*** the ***color*** of the `font` ***from*** its ***default*** `color` of `black` to a ***shade*** of `brick`.
+
+We ***apply*** the `display: block;` ***property declaration*** to the `leopard image` to ***get rid*** of the ***last traces*** of `margins` or `padding` ***around*** the `image`.
+
+We ***apply*** the `background-size: cover;` ***property declration*** to the `img element` so that it ***covers*** the ***entire*** `div area` ***with*** the `.container` ***class***. We ***also*** `set` an `img height` of `100vh` so that the `image` `covers` the ***entire*** `viewport` in `smaller screens` (***or*** `larger ones`) ***no matter what*** the ***size***. ***Otherwise***, there ***would be*** a lot of `white space` ***under*** the `image` as the `viewport` ***decreases*** in `width` (***and*** a `height` ***covering*** the `entire area` is ***not*** `set`). 
+
+<aside class="notes">
+    Note: Show the example in the Brackets Live Preview. Don't forget to turn on Live Reload as well We can compare the absolute positioning with fixed positioning here to see the difference between the two.
+</aside>
 
 </section>
 
