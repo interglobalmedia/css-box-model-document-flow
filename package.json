@@ -1,0 +1,23 @@
+{
+  "name": "css-box-system-document-flow",
+  "version": "1.0.0",
+  "description": "The CSS Box System and Document Flow",
+  "main": "index.js",
+  "scripts": {
+    "slides": "npx reveal-md css-box-system-document-flow.md",
+    "customcss": "npx reveal-md css-box-system-document-flow.md -w --css custom.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interglobalmedia/css-box-system-document-flow.git"
+  },
+  "author": "Maria D. Campbell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/interglobalmedia/css-box-system-document-flow/issues"
+  },
+  "homepage": "https://github.com/interglobalmedia/css-box-system-document-flow#readme",
+  "devDependencies": {
+    "reveal-md": "^5.0.0"
+  }
+}
