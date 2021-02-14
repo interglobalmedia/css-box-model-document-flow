@@ -662,4 +662,6 @@ The `z-index property` ***accepts*** the ***following*** `values`:
 
 + [Chrome Developer Tools CSS Reference](https://developers.google.com/web/tools/chrome-devtools/css/reference)
 
++ [CSS background-position Property: w3schools](https://www.w3schools.com/cssref/pr_background-position.asp)
+
 </section>
