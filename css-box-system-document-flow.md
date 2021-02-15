@@ -259,7 +259,9 @@ In `normal flow`, `inline elements` ***display*** in the `inline direction`, tha
 <section class="section">
     <h2 class="sentence">The CSS position property</h2>
     
-The `CSS position` ***property*** is ***one way*** that an `element`'s ***default*** `position` can be ***over-ridden***. It ***specifies*** the `type` of ***positioning method*** `used` for an `element`. 
+The `CSS position` ***property*** is ***one way*** that an `element`'s ***default*** `position` can be ***over-ridden***, thereby ***removing*** the `element` ***from*** the `normal flow` of the `document`. 
+
+The `CSS position property` ***specifies*** the `type` of ***positioning method*** `used` for an `element`. 
 
 ***Below*** is a ***list*** of the `values` which ***can*** be ***applied*** to the `position` ***property*** (`5` are ***specific*** to the `position property`):
 
@@ -544,13 +546,13 @@ The `clip-path property` has ***many more*** `values` to ***choose from*** than 
     
 The `left property` ***affects*** the `horizontal position` of a ***positioned*** `element`.  ***This*** `property` has ***no effect*** on ***non-positioned*** `elements`.
 
-If a `position: absolute;` or `position: fixed;` ***property declaration*** is ***applied***, the `left property` ***sets*** the `left edge` of an `element` to a `unit` to the ***left*** of the `left edge` of its ***nearest*** `positioned ancester`.
+If a `position: absolute;` or `position: fixed;` ***property declaration*** is ***applied***, the `left property` ***sets*** the `left edge` of an `element` to a `unit` to the ***left*** of the `left edge` of its ***nearest*** `positioned ancestor`.
 
 If a `position: relative;` ***property declaration*** is ***applied***, the `left property` ***sets*** the `left edge` of an `element` to a `unit` to the ***left/right*** of its `normal position`.
 
 if a `position: sticky;` ***property declaration*** is ***applied***, the `left property` ***behaves*** like its `position` is `relative` when the `element` is ***inside*** the `viewport`, and like its `position` is `fixed` when it is ***outside*** the `viewport`.
 
-If a `position: stactic;` ***property declaration*** is ***applied***, the `property` has ***no effect***. In ***other*** words, the `position` ***implicitly contains*** its ***default*** `value` of `static`.
+If a `position: static;` ***property declaration*** is ***applied***, the `property` has ***no effect***. In ***other*** words, the `position` ***implicitly contains*** its ***default*** `value` of `static`.
 
 <aside class="notes">
     Note: go to the [CSS left Property](https://www.w3schools.com/cssref/pr_pos_left.asp) page on w3schools for a live example.
@@ -621,12 +623,14 @@ The `z-index property` ***specifies*** the `stack order` of an `element`.
 
 An `element` with ***greater*** `stack order` is ***always*** in ***front*** of an `element` with a ***lower*** `stack order`.
 
-The `z-index property` ***only works*** on ***positioned*** `elements`:
+The `z-index property` ***only works*** on `elements` ***which*** are ***explicitly positioned***:
 
 + `position: absolute;`
 + `position: relative;`
 + `position: fixed;`
 + `position: sticky;`
+
+This ***means*** that a `position` ***property declaration*** has been ***defined*** within the `declaration block` of the `CSS rule set`.
 
 The `z-index property` ***accepts*** the ***following*** `values`:
 
@@ -664,6 +668,6 @@ The `z-index property` ***accepts*** the ***following*** `values`:
 
 + [CSS background-position Property: w3schools](https://www.w3schools.com/cssref/pr_background-position.asp)
 
-+ [https://blog.adobe.com/en/publish/2015/12/07/creating-fluid-layouts-images-with-css.html#gs.szmxl9](Creating Fluid Layouts & Images with CSS)
++ [Creating Fluid Layouts & Images with CSS: Adobe Blog](https://blog.adobe.com/en/publish/2015/12/07/creating-fluid-layouts-images-with-css.html#gs.szmxl9)
 
 </section>
