@@ -664,4 +664,6 @@ The `z-index property` ***accepts*** the ***following*** `values`:
 
 + [CSS background-position Property: w3schools](https://www.w3schools.com/cssref/pr_background-position.asp)
 
++ [https://blog.adobe.com/en/publish/2015/12/07/creating-fluid-layouts-images-with-css.html#gs.szmxl9](Creating Fluid Layouts & Images with CSS)
+
 </section>
