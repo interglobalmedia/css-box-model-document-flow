@@ -303,7 +303,7 @@ For ***example***, the `div element` ***implicitly*** has `position: static;` by
     
 `absolute`: The `element` is `positioned` ***relative*** to its ***nearest positioned*** (***not*** `static`) `ancestor element` (***instead*** of `positioned` ***relative*** to the `viewport`, ***like*** `fixed`).
 
-***If*** an `absolute` ***positioned*** `element` has ***no*** `positioned` ***ancesters***, it ***uses*** the `document body`, and ***moves along with*** `page scrolling`.
+***If*** an `absolute` ***positioned*** `element` has ***no*** `positioned` ***ancestors***, it ***uses*** the `document body`, and ***moves along with*** `page scrolling`.
 
 **Reminder**: a `"positioned" element` is one ***whose*** `position` is ***anything*** EXCEPT `static`.
 
@@ -372,6 +372,8 @@ The `z-index property` ***specifies*** the `stack order` of an `element` (***whi
 An `element` ***can have*** a `positive` (***towards*** the `top` of the `stack order`) or ***negative*** `stack order` (***towards*** the `bottom` of the `stack order`).
 
 **Tip**: If ***two*** `positioned elements` ***overlap*** `without` a ***specified*** `z-index`, the `element` ***positioned*** `last` in the `HTML code` will be ***shown*** on `top`.
+
+The `z-index property` ***only works*** if a` position property declaration` is ***explicitly applied*** to the `element` (`position: relative`, `position: fixed`, ***or*** `position: sticky`).
 
 <aside class="notes">
     Note: go to the [CSS Layout - The position Property](https://www.w3schools.com/css/css_positioning.asp) page on w3schools for a live example.
