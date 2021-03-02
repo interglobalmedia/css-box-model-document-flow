@@ -1,4 +1,4 @@
-Pre Class Session 5 March 2, 2021  Notes 
+Pre Class Session 5 March 2, 2021  Notes
 
 New tools to use to improve your site:
 
@@ -8,7 +8,9 @@ Coincidentally, a11y looks like it would read phonetically as ally, which has be
 
 No less, many technologists see a11y as a movement, and not just the simple act of making websites more accessible. To learn more about a11y, please visit [What is a11y?](https://www.boia.org/blog/what-is-a11y#:~:text=May%204%2C%202017,character%20limits%20on%20social%20media.).
 
-2. [W3C HTML Markup validation Service](https://validator.w3.org/#validate_by_uri+with_options) - validates your HTML markup (and more)
+2. [W3C HTML Markup Validation Service](https://validator.w3.org/#validate_by_uri+with_options) - validates your HTML markup (and more)
+
+**What checkboxes and radio buttons to select in the W3C Markup Validation Service**: The List Messages Sequentially radio button, the Show Source checkbox, the Show outline checkbox, the Clean Up Markup with HTML-Tidy checkbox, and the Validate Error Pages checkbox. Then click the Check button.
 
 3. Lighthouse Chrome Extension (I mentioned this before, but it really is an essential tool for web design and development today): even lets you know what is wrong or not semantic about your HTML markup.
 
