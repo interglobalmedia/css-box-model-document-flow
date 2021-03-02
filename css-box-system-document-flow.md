@@ -14,7 +14,6 @@ The `CSS Box Model` ***consists*** of:
 + `Padding`
 + `Border`
 + `Margin`
-+ `Position` (in `Chrome Developer Tools` ***via*** the `Elements Tab` and then ***within*** the `html` ***or*** the `body tab` ***under*** `styles`. Have ***not*** been able to ***find out*** `anywhere` ***yet*** what `position` ***represents***. It has ***not*** been there in ***previous versions*** of `Chrome DevTools` as far as I ***know***)
 
 A ***visual*** `example` can be ***found*** on `w3schools`:
 [The CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp).
@@ -124,9 +123,9 @@ It is ***important*** to ***note*** that ***when*** we ***set*** the `width` and
 div {
     background-color: lightgrey;
     width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+    border: 30px solid green;
+    padding: 100px;
+    margin: 40px;
 }
 ```
 
@@ -151,9 +150,9 @@ div {
 div {
     background-color: lightgrey;
     height: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+    border: 30px solid green;
+    padding: 100px;
+    margin: 40px;
 }
 ```
 
@@ -250,7 +249,7 @@ There are ***other*** `values` one ***can apply*** to the `box-sizing` ***proper
 
 In `normal flow`, `inline elements` ***display*** in the `inline direction`, that ***means*** in the ***direction*** `words` are ***displayed*** in a `sentence` ***according*** to the [Writing Mode](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Writing_Modes) of the `document`.
 
-`CSS Writing Modes` is a `CSS module` that `defines` ***variaus*** `international writing modes`, ***such as*** `left-to-right` ***used*** by `Latin` and `Indic scripts` (`ltr`), `right-to-left` ***used*** by `Hebrew` or `Arabic Scripts` (`rtl`), `bi-directional` ***used*** when ***mixing*** `left-to-right` and `right-to-left` ***scripts***, and `vertical` ***used*** by ***some*** `Asian scripts`.
+`CSS Writing Modes` is a `CSS module` that `defines` ***various*** `international writing modes`, ***such as*** `left-to-right` ***used*** by `Latin` and `Indic scripts` (`ltr`), `right-to-left` ***used*** by `Hebrew` or `Arabic Scripts` (`rtl`), `bi-directional` ***used*** when ***mixing*** `left-to-right` and `right-to-left` ***scripts***, and `vertical` ***used*** by ***some*** `Asian scripts`.
 </section>
 
 ---
@@ -413,7 +412,7 @@ div.top-left {
     position: absolute;
     top: 1.5rem;
     left: 1.5rem;
-    font-size:1.5rem;
+    font-size: 1.5rem;
     color: #ae2825;
 }
 
@@ -652,6 +651,8 @@ The `z-index property` ***accepts*** the ***following*** `values`:
     <h2 class="sentence">Related Resources</h2>
 
 + [Introduction to the CSS basic box model: MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
+
++ [box-sizing: MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
 
 + [The CSS Box Model: w3schools](https://www.w3schools.com/css/css_boxmodel.asp)
 
