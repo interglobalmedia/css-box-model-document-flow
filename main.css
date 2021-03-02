@@ -1,0 +1,29 @@
+/* My custom reset */
+
+* {
+    margin: 0;
+    padding: 0;
+/*    box-sizing: border-box;*/
+}
+
+/* For styling the text over the leopard image */
+.container {
+    position: relative;
+}
+
+div.top-left {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    font-size: 1.5rem;
+    color: #ae2825;
+}
+
+img {
+    display: block;
+    background-size: cover;
+    background-position: left center;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.5;
+}
