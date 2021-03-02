@@ -18,4 +18,4 @@ I have uploaded my portfolio.html page (along with my other "dummy pages") to my
 
 Please be sure to also check out the HTML markup and CSS code changes I made available for viewing on the [Sectioning HTML](https://github.com/interglobalmedia/sectioning-html) slide deck repository on Github.
 
-if there is anything else I can think of before class on Tuesday, March 2, 2021, I will add it here. Thanks!
+If there is anything else I can think of before class on Tuesday, March 2, 2021, I will add it here. Thanks!
