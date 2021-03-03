@@ -1,4 +1,4 @@
-Pre Class Session 5 March 2, 2021  Notes 
+Pre Class Session 5 March 2, 2021  Notes
 
 New tools to use to improve your site:
 
@@ -40,7 +40,7 @@ Please be sure to also check out the HTML markup and CSS code changes I made ava
 
 If there is anything else I can think of before class on Tuesday, March 2, 2021, I will add it here. Thanks!
 
-Notes  re portfolio.html semantic HTML  2.27.21: 
+Notes  re portfolio.html semantic HTML  2.27.21:
 
 At first, as you know, I had only had used the section semantic html element to wrap around three figure elements at a time. This meant I ended up with 4 sections, each containing 3 figure elements with their corresponding figcaptions.
 
@@ -53,3 +53,7 @@ I decided to circumvent my section h2 heading issue by wrapping an article eleme
 I placed the h1 element at the bottom of the header element below the nav element.
 
 I hope the evolutionary process as well as the thought process behind structuring my portfolio.html page based both on taking semantic HTML into consideration and taking into account the CSS styles being used and how change in page structure could affect it, will be of some help to you all. Thanks!
+
+Note Re Landing Page ideas and Portfolio Site ideas:
+
+Here are some links related to landing page ideas and portfolio website examples: [34 Brilliant Landing Page Examples With 71 Takeaways](https://klientboost.com/cro/landing-page-examples/)  [12 Standout Examples of Web Design Portfolios](https://elementor.com/blog/web-design-portfolio-examples/).
