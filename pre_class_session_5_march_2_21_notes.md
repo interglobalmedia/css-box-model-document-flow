@@ -10,6 +10,28 @@ No less, many technologists see a11y as a movement, and not just the simple act 
 
 2. [W3C HTML Markup validation Service](https://validator.w3.org/#validate_by_uri+with_options) - validates your HTML markup (and more)
 
+When you use the W3C Markup Validation Service, make sure to select the following:
+
+a. First make sure that you have selected the Validate by URI tab.
+
+b. First make sure that you expand the More Options dropdown arrow.
+
+c. For Character Encoding, select utf-8 (Unicode, Worldwide)
+
+d. For Document Type, select HTML5 (experimental)
+
+e. Select the List Messages Sequentially radio button.
+
+f. Check the Show Source checkbox.
+
+g. Check the Show Outline checkbox.
+
+h. Check the Clean up Markup with HTML-Tidy checkbox.
+
+i. Check the Validate error pages checkbox.
+
+Then click the Check button to validate your HTML page. The link has to point to a page on a live site. Not to a page n a local server on your computer.
+
 3. Lighthouse Chrome Extension (I mentioned this before, but it really is an essential tool for web design and development today): even lets you know what is wrong or not semantic about your HTML markup.
 
 I have uploaded my portfolio.html page (along with my other "dummy pages") to my domain name on Namecheap. I made a few changes afterwards, and this is what it looks like now: [letsbsocial.nyc](https://www.letsbsocial.nyc/portfolio.html)
